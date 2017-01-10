@@ -1,0 +1,35 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "watch": "watchify src/app.js -t babelify -o public/js/bundle.js --debug --verbose"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "classnames": "^2.2.3",
+    "electron": "^1.4.13",
+    "electron-reload": "^1.1.0",
+    "jquery": "^2.2.3",
+    "react": "^0.14.8",
+    "react-autocomplete": "^1.0.0-rc2",
+    "react-dom": "^0.14.7",
+    "react-sound": "^0.4.0",
+    "soundmanager2": "^2.97.20150601-a"
+  }
+}
